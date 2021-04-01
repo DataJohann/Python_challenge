@@ -87,14 +87,14 @@ average_profit_change = total_profit_change / len(profit_change_list)
 max_profit_increase = max(profit_change_list)
 # get index to find the date
 max_profit_increase_index = profit_change_list.index(max_profit_increase)
-# get date using index
+# get date using index to pull from dates list
 max_profit_increase_date = profit_change_dates[max_profit_increase_index]
 
 #find greatest decrease in profit using min function
 max_profit_decrease = min(profit_change_list) 
 # get index to find the date
 max_profit_decrease_index = profit_change_list.index(max_profit_decrease)
-# get date using index
+# get date using index to pull from dates list
 max_profit_decrease_date = profit_change_dates[max_profit_decrease_index]
 
 
